@@ -13,6 +13,10 @@ public class Ejercicio2 {
                     suma += notas[i];
                 }
 
+                double promedio = suma / n;
+                String estado = (promedio >= 3.0) ? "Aprobado" : "Reprobado";
+
+                JOptionPane.showMessageDialog(null, "Promedio: " + promedio + "\nEstado: " + estado);
             }
         }
 
