@@ -26,6 +26,8 @@ public class Ejercicio1 {
                     }
                 }
 
+                String mensaje = "Pares: " + pares + "\nImpares: " + impares;
+                JOptionPane.showMessageDialog(null, mensaje);
             }
         }
 
