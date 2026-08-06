@@ -57,6 +57,14 @@ public class Ejercicio6 {
                     ganador = "Ganador: Candidato C";
                 }
 
+                // 5. Mostrar los resultados finales
+                String reporte = "--- Resultados del Conteo ---\n" +
+                        "Candidato A: " + votosA + " votos\n" +
+                        "Candidato B: " + votosB + " votos\n" +
+                        "Candidato C: " + votosC + " votos\n\n" +
+                        ganador;
+
+                JOptionPane.showMessageDialog(null, reporte);
             }
         }
 
