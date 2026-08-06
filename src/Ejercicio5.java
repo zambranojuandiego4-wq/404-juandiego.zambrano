@@ -26,8 +26,14 @@ public class Ejercicio5 {
                 }
 
 
+                if (encontrado) {
+                    JOptionPane.showMessageDialog(null, "El número " + numeroBuscar + " existe en el array.\n" +
+                            "Se encuentra en la(s) posición(es): " + posicionesEncontradas);
+                } else {
+                    JOptionPane.showMessageDialog(null, "El número " + numeroBuscar + " no fue encontrado.");
                 }
             }
+        }
 
 
 
